@@ -1,4 +1,6 @@
-import { Tabs } from "./Taps";
+import React from 'react'
+import { Tabs } from "./Tabs";
+
 const Header = () => {
   return (
     <header id="header" className="header">

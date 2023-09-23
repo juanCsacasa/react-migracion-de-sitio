@@ -1,6 +1,6 @@
 import React from 'react';
-import formatDate from '../utils/format-date.js';
-import { interactionsCategories } from '../config.js'; 
+import formatDate from '../../utils/format-date.js';
+import { interactionsCategories } from '../../config.js'; 
 
 const { going, interested, favorites } = interactionsCategories; 
 
