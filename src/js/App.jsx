@@ -1,6 +1,9 @@
 import { createRoot } from "react-dom/client";
+import React from 'react';
+
 import { Header } from "./components/react/Header";
 import { MainContent } from "./components/react/MainContent";
+
 const App = () => {
   return (
     <>
@@ -8,7 +11,8 @@ const App = () => {
           <MainContent />
     </>
   );
-};
+}
+
 
 const container = document.getElementById("root");
 const root = createRoot(container);
